@@ -1,0 +1,50 @@
+
+  main .history-main{
+    margin-top: 1.3rem;
+  }
+  
+  main .history-main h2{
+    margin-bottom: 0.8rem;
+  }
+  
+  main .history-main table{
+    background-color: var(--color-white);
+    width: 100%;
+    padding: var(--card-padding);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--card-border-radius);
+    transition: all 0.3s ease;
+  }
+  
+  main .history-main table:hover{
+    box-shadow: none;
+  }
+
+
+.historyPages{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.historyPagesBtn{
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 2px 2px rgb(185, 184, 184);
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  width: 2rem;
+}
+
+.historyPagesBtn:hover{
+  background-color: var(--color-dark); ;
+}
+
+.currentPage{
+  background-color: var(--color-dark); 
+}

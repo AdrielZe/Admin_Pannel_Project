@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <title>Painel administrativo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleUsers.css" />
+  </head>
+  <body>
+  <div class="container">
+      <!-- sidebar -->
+      <aside>
+        <div class="toggle">
+           <div class="logo">
+              <img src="./assets/logo.png" alt="logo do site" href="dashboard.html" />
+              <h2>Adr<span class="greenColor">Dev</span></h2>
+           </div>
+           <div class="close" id="close-btn">
+              <span class="material-symbols-outlined"> close </span>
+           </div>
+        </div>
+
+
+        <div class="sidebar">
+            <a href="dashboard.html">
+               <span class="material-symbols-outlined">
+                   dashboard
+               </span>
+               <h3>Dashboard</h3>
+            </a>
+            <a href="users.html" class="active">
+               <span class="material-symbols-outlined">
+                  person
+               </span>
+               <h3>Users</h3>
+           </a>
+           <a href="history.html">
+              <span class="material-symbols-outlined">
+                receipt_long
+              </span>
+              <h3>History</h3>
+           </a>
+           <a href="./index.html">
+              <span class="material-symbols-outlined">
+                 insights
+              </span>
+             <h3>Analytics</h3>
+          </a>
+          <a href="#">
+             <span class="material-symbols-outlined">
+                mail_outline
+             </span>
+             <h3>Tickets</h3>
+             <span class="message-count">23</span>
+          </a>
+          <a href="#">
+             <span class="material-symbols-outlined">
+                inventory
+             </span>
+             <h3>Sale List</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-outlined">
+               report
+            </span>
+            <h3>Reports</h3>
+         </a>
+         <a href="#">
+          <span class="material-symbols-outlined">
+             settings
+          </span>
+          <h3>Settings</h3>
+         </a>
+         <a href="#">
+          <span class="material-symbols-outlined">
+             add
+          </span>
+          <h3>New Login</h3>
+         </a>
+         <a href="#">
+          <span class="material-symbols-outlined">
+             logout
+          </span>
+          <h3>Logout</h3>
+         </a>
+      </div>
+   </aside>
+   <!-- fim da sidebar -->
+
+
+
+   <!-- conteúdo principal -->
+   <main>
+      <h1>Users</h1>
+      <p id="users_number">12 users</p>
+      <!-- Lista de usuários -->
+      <div class="user_page_list">
+            <div class="user_page_list_users">
+              <div class="user">
+                <img src="./assets/adri.jpg" alt="user_photo">
+                <h2>Adriel</h2>
+                <p>Joined 2 years ago</p>
+                <p>FullStack Developer</p>
+                <p>Owner of the company</p>
+             </div>
+             <div class="user">
+              <img src="./assets/yasmin.jpg" alt="user_photo">
+              <h2>Yasmin</h2>
+              <p>Joined last week</p>
+              <p>Back-end developer</p>
+              <p>New in this company</p>
+           </div>
+           <div class="user">
+            <img src="./assets/gabi.jpg" alt="user_photo">
+            <h2>Gabriel</h2>
+            <p>Joined 1 year ago</p>
+            <p>Back-end developer</p>
+            <p>Doing my best</p>
+          </div>
+          <div class="user">
+            <img src="./assets/user4.jfif" alt="user_photo">
+            <h2>Abdul Salim</h2>
+            <p>Joined 3 months ago</p>
+            <p>Devops</p>
+            <p>Hi there :D</p>
+          </div>
+          <div class="user">
+            <img src="./assets/user5.jfif" alt="user_photo">
+            <h2>Lucia</h2>
+            <p>Joined 4 months ago</p>
+            <p>Front-end developer</p>
+            <p>Loving this company!</p>
+          </div>
+          <div class="user">
+          <img src="./assets/user6.jfif" alt="user_photo">
+            <h2>Jamal</h2>
+            <p>Joined 1 year ago</p>
+            <p>Back-end developer</p>
+            <p>Busy</p>
+          </div>
+          <div class="user">
+            <img src="./assets/user7.jfif" alt="user_photo">
+              <h2>Jeffrey</h2>
+              <p>Joined 2 weeks ago</p>
+              <p>Front-end developer</p>
+              <p>I Started working here recently</p>
+            </div>
+            <div class="user">
+               <img src="./assets/user8.jpg" alt="user_photo">
+                 <h2>Sheldon</h2>
+                 <p>Joined 1 year ago</p>
+                 <p>Front-end developer</p>
+                 <p>I Started working here recently</p>
+            </div>
+            <div class="user">
+               <img src="./assets/user9.avif" alt="user_photo">
+                 <h2>Ben</h2>
+                 <p>Joined 6 months ago</p>
+                 <p>FullStack developer</p>
+                 <p>What are we having for lunch?</p>
+            </div>
+            <div class="user">
+               <img src="./assets/user10.jpg" alt="user_photo">
+                 <h2>Sam</h2>
+                 <p>Joined 1.5 years ago</p>
+                 <p>System Analytics</p>
+                 <p>I love working</p>
+            </div>
+            <div class="user">
+               <img src="./assets/user11.jpg" alt="user_photo">
+                 <h2>Melissa</h2>
+                 <p>Joined 1 year ago</p>
+                 <p>Sales manager</p>
+                 <p>Sales is everything.</p>
+            </div>
+            <div class="user">
+               <img src="./assets/user12.jpg" alt="user_photo">
+                 <h2>Sophie</h2>
+                 <p>Joined 8 months ago</p>
+                 <p>System security</p>
+                 <p>I keep you systems safe.</p>
+            </div>
+          
+          
+          
+          
+        
+          
+          
+        </div>
+       </div> 
+      <!-- fim da lista de usuários -->
+   
+
+   </main>
+   <!-- Fim do conteúdo principal -->
+
+
+   <!-- Seção da direita -->
+   <div class="right-section">
+      <div class="nav">
+         <button id="menu-btn">
+            <span class="material-symbols-outlined">
+               menu
+            </span>
+         </button>
+         <div class="dark-mode">
+            <span class="material-symbols-outlined active">
+               light_mode
+            </span>
+            <span class="material-symbols-outlined">
+               dark_mode
+            </span>
+         </div>
+
+         <div class="profile">
+            <div class="info">
+               <p>Hey, <b>Adri</b></p>
+               <small class="text-muted">Admin</small>
+            </div>
+            <div class="profile-photo">
+               <img src="./assets/adri.jpg" alt="admin_pic">
+            </div>
+         </div>
+      </div>
+      <!-- fim da navegação -->
+      <div class="user-profile">
+         <div class="logo">
+            <img src="./assets/logo.png">
+            <h2>AdrDev</h2>
+            <p>Fullstack Web Developer</p>
+         </div>
+      </div>
+
+      <div class="reminders">
+         <div class="header">
+            <h2>Reminders</h2>
+            <span class="material-symbols-outlined">
+               notifications_none
+            </span>
+         </div>
+
+         <div class="notification">
+            <div class="icon">
+               <span class="material-symbols-outlined">
+                  volume_up
+               </span>
+            </div>
+            <div class="content">
+               <div class="info">
+                  <h3>Workshop</h3>
+                  <small class="text_muted">
+                     08:00 AM - 12:00 PM
+                  </small>
+               </div>
+               <span class="material-symbols-outlined">
+                  more_vert
+               </span>
+            </div>
+         </div>
+
+         <div class="notification deactive">
+            <div class="icon">
+               <span class="material-symbols-outlined">
+                  edit
+               </span>
+            </div>
+            <div class="content">
+               <div class="info">
+                  <h3>Workshop</h3>
+                  <small class="text_muted">
+                     08:00 AM - 12:00 PM
+                  </small>
+               </div>
+               <span class="material-symbols-outlined">
+                  more_vert
+               </span>
+            </div>
+         </div>
+
+         <div class="notification add-reminder">
+            <div>
+               <span class="material-symbols-outlined">
+                  add
+               </span>
+               <h3>Add Reminder</h3>
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+
+   
+</div>
+
+    <script src="orders.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

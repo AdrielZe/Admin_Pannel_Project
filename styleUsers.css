@@ -1,0 +1,57 @@
+@import url("style.css");
+
+#users_number{
+  color: #6C9BCF;
+}
+main .user_page_list{
+margin-top: 1.4rem;
+
+}
+
+
+main .user_page_list > div{
+  background-color: var(--color-white);
+  padding: var(--card-padding);
+  border-radius: var(--card-border-radius);
+  margin-top: 1rem;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 8rem;
+  transition: all 0.3s ease;
+}
+
+
+  main .user_page_list > div .user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 2px solid;
+  box-shadow: 0 2px black;
+  background-color: var(--color-user-background-card);
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  padding:  15px;
+  transition: all 0.3s ease;
+  min-width: 13rem;
+  max-width: 13rem;
+} 
+
+
+
+main .user_page_list .user_page_list_users .user img{
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin-bottom: 0.4rem;
+}
+
+main .user_page_list > div .user:hover{
+box-shadow: none;
+cursor: pointer;
+
+} 
+
