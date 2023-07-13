@@ -6,8 +6,8 @@ const showAllOrdersButton = document.querySelector("#showAllBtn");
 const showLessOrdersButton = document.querySelector("#showLessBtn");
 const goToHistoryButton = document.querySelector("#goToHistory");
 
-goToHistoryButton.style.display = "none";
-showLessOrdersButton.style.display = "none";
+// goToHistoryButton.style.display = "none";
+// showLessOrdersButton.style.display = "none";
 
 menuBtn.addEventListener("click", () => {
   sideMenu.style.display= "block";

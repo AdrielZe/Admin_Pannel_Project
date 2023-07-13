@@ -13,6 +13,9 @@
   --color-dark-variant: #677483;
   --color-background: #f6f6f9;
   --color-user-background-card:#f1f4f6;
+  --color-hover:  rgb(245, 245, 245);
+  --color-black: #000000;
+  --color-email: rgb(238, 237, 237);
 
   --card-border-radius: 2rem;
   --border-radius-1: 0.4rem;
@@ -32,6 +35,9 @@
   --color-user-background-card:#293034;
   --color-light: rgba(0, 0, 0, 0.4);
   --box-shadow: 0 2rem 3rem var(--color-light);
+  --color-hover:  #181a1e;
+  --color-black: #edeffd;
+  --color-email: #181c1f;
 }
 
 *{

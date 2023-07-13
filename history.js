@@ -20,7 +20,8 @@ const history = [
    productName:'CSS Full Course',
    productNumber:'97245',
    paymentStatus:'Refunded',
-   status:'Declined'
+   status:'Declined',
+
  },
  {
     date: '2023-07-05',
@@ -34,7 +35,6 @@ const history = [
      productName:'C++ Fundamentals',
      productNumber:'483719',
      paymentStatus:'Due',
-     status:'Active'
   },
   {
     date: '2023-07-01',
@@ -373,6 +373,8 @@ const history = [
     status: 'Pending'
   },
  ]
+ 
+ const salesTest = history.slice(0,14);
 
 
  const firstPageElements = history.slice(0,20);

@@ -9,10 +9,11 @@
     />
     <title>Painel administrativo</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="styleUsers.css" />
+    <link rel="stylesheet" href="styleHistory.css">
+    <link rel="stylesheet" href="styleTickets.css">
   </head>
   <body>
-  <div class="container">
+    <div class="container">
       <!-- sidebar -->
       <aside>
         <div class="toggle">
@@ -39,7 +40,7 @@
                </span>
                <h3>Dashboard</h3>
             </a>
-            <a href="users.html" class="active">
+            <a href="users.html">
                <span class="material-symbols-outlined">
                   person
                </span>
@@ -51,18 +52,18 @@
               </span>
               <h3>History</h3>
            </a>
-           <a href="./index.html">
+           <a href="index.html">
               <span class="material-symbols-outlined">
                  insights
               </span>
              <h3>Analytics</h3>
           </a>
-          <a href="tickets.html">
+          <a href="#" class="active">
              <span class="material-symbols-outlined">
                 mail_outline
              </span>
              <h3>Tickets</h3>
-             <span class="message-count">23</span>
+             <span class="message-count" style="color: var(--color-white);">8</span>
           </a>
           <a href="sales.html">
              <span class="material-symbols-outlined">
@@ -82,7 +83,7 @@
           </span>
           <h3>Settings</h3>
          </a>
-         <a href="newLogin.html">
+         <a href="newLogin-html">
           <span class="material-symbols-outlined">
              add
           </span>
@@ -102,106 +103,29 @@
 
    <!-- conteúdo principal -->
    <main>
-      <h1>Users</h1>
-      <p id="users_number">12 users</p>
-      <!-- Lista de usuários -->
-      <div class="user_page_list">
-            <div class="user_page_list_users">
-              <div class="user">
-                <img src="./assets/adri.jpg" alt="user_photo">
-                <h2>Adriel</h2>
-                <p>Joined 2 years ago</p>
-                <p>FullStack Developer</p>
-                <p>Owner of the company</p>
-             </div>
-             <div class="user">
-              <img src="./assets/yasmin.jpg" alt="user_photo">
-              <h2>Yasmin</h2>
-              <p>Joined last week</p>
-              <p>Back-end developer</p>
-              <p>New in this company</p>
-           </div>
-           <div class="user">
-            <img src="./assets/gabi.jpg" alt="user_photo">
-            <h2>Gabriel</h2>
-            <p>Joined 1 year ago</p>
-            <p>Back-end developer</p>
-            <p>Doing my best</p>
-          </div>
-          <div class="user">
-            <img src="./assets/user4.jfif" alt="user_photo">
-            <h2>Abdul Salim</h2>
-            <p>Joined 3 months ago</p>
-            <p>Devops</p>
-            <p>Hi there :D</p>
-          </div>
-          <div class="user">
-            <img src="./assets/user5.jfif" alt="user_photo">
-            <h2>Lucia</h2>
-            <p>Joined 4 months ago</p>
-            <p>Front-end developer</p>
-            <p>Loving this company!</p>
-          </div>
-          <div class="user">
-          <img src="./assets/user6.jfif" alt="user_photo">
-            <h2>Jamal</h2>
-            <p>Joined 1 year ago</p>
-            <p>Back-end developer</p>
-            <p>Busy</p>
-          </div>
-          <div class="user">
-            <img src="./assets/user7.jfif" alt="user_photo">
-              <h2>Jeffrey</h2>
-              <p>Joined 2 weeks ago</p>
-              <p>Front-end developer</p>
-              <p>I Started working here recently</p>
-            </div>
-            <div class="user">
-               <img src="./assets/user8.jpg" alt="user_photo">
-                 <h2>Sheldon</h2>
-                 <p>Joined 1 year ago</p>
-                 <p>Front-end developer</p>
-                 <p>I Started working here recently</p>
-            </div>
-            <div class="user">
-               <img src="./assets/user9.avif" alt="user_photo">
-                 <h2>Ben</h2>
-                 <p>Joined 6 months ago</p>
-                 <p>FullStack developer</p>
-                 <p>What are we having for lunch?</p>
-            </div>
-            <div class="user">
-               <img src="./assets/user10.jpg" alt="user_photo">
-                 <h2>Sam</h2>
-                 <p>Joined 1.5 years ago</p>
-                 <p>System Analytics</p>
-                 <p>I love working</p>
-            </div>
-            <div class="user">
-               <img src="./assets/user11.jpg" alt="user_photo">
-                 <h2>Melissa</h2>
-                 <p>Joined 1 year ago</p>
-                 <p>Sales manager</p>
-                 <p>Sales is everything.</p>
-            </div>
-            <div class="user">
-               <img src="./assets/user12.jpg" alt="user_photo">
-                 <h2>Sophie</h2>
-                 <p>Joined 8 months ago</p>
-                 <p>System security</p>
-                 <p>I keep you systems safe.</p>
-            </div>
-          
-          
-          
-          
-        
-          
-          
-        </div>
-       </div> 
-      <!-- fim da lista de usuários -->
-   
+      <!-- Tabela de pedidos recentes -->
+      <div class="tickets-main">
+         <h2>Tickets</h2>
+         <table>
+            <thead>
+               <tr>
+                  <th>Name</th>
+                  <th>E-mail</th>
+                  <th>About</th>
+                  <th>Date</th>
+                  <th>Hour</th>
+                  <th>Number</th>
+                  <th></th>
+               </tr>
+            </thead>
+            <tbody>
+            </tbody>
+         </table>
+
+         
+
+      </div>
+      <!-- fim da tabela de pedidos recentes -->
 
    </main>
    <!-- Fim do conteúdo principal -->
@@ -304,8 +228,8 @@
 
    
 </div>
-
-    <script src="orders.js"></script>
+    
+    <script src="tickets.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

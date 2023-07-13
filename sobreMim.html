@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+   />
+   <title>Painel administrativo</title>
+   <link rel="stylesheet" href="style.css" />
+   <link rel="stylesheet" href="styleSobreMim.css" />
+</head>
+<body>
+<div class="container">
+      <!-- sidebar -->
+      <aside>
+         <div class="toggle">
+            <div class="logo">
+               <img src="./assets/logo.png" alt="logo do site" href="dashboard.html" />
+               <h2>Adr<span class="greenColor">Dev</span></h2>
+            </div>
+            <div class="close" id="close-btn">
+               <span class="material-symbols-outlined"> close </span>
+            </div>
+         </div>
+
+
+      <div class="sidebar">
+        <a href="sobreMim.html" class="active">
+         <span class="material-symbols-outlined">
+            person_search
+            </span>
+          <h3>Meu Portfólio</h3>
+       </a>
+            <a href="dashboard.html">
+               <span class="material-symbols-outlined">
+                  dashboard
+               </span>
+               <h3>Dashboard</h3>
+            </a>
+            <a href="users.html">
+               <span class="material-symbols-outlined">
+                  person
+               </span>
+               <h3>Users</h3>
+         </a>
+         <a href="history.html">
+            <span class="material-symbols-outlined">
+               receipt_long
+            </span>
+            <h3>History</h3>
+         </a>
+         <a href="./index.html">
+            <span class="material-symbols-outlined">
+               insights
+            </span>
+            <h3>Analytics</h3>
+         </a>
+         <a href="tickets.html">
+            <span class="material-symbols-outlined">
+               mail_outline
+            </span>
+            <h3>Tickets</h3>
+            <span class="message-count">8</span>
+         </a>
+         <a href="./sales.html">
+            <span class="material-symbols-outlined">
+               inventory
+            </span>
+            <h3>Sale List</h3>
+         </a>
+         <a href="reports.html" >
+            <span class="material-symbols-outlined">
+               report
+            </span>
+            <h3>Reports</h3>
+         </a>
+         <a href="settings.html">
+         <span class="material-symbols-outlined">
+            settings
+         </span>
+         <h3>Settings</h3>
+         </a>
+         <a href="newLogin.html">
+         <span class="material-symbols-outlined">
+            add
+         </span>
+         <h3>New Login</h3>
+         </a>
+         <a href="logout.html">
+         <span class="material-symbols-outlined">
+            logout
+         </span>
+         <h3>Logout</h3>
+         </a>
+      </div>
+   </aside>
+   <!-- fim da sidebar -->
+
+
+
+   <!-- conteúdo principal -->
+   <main>
+      <h1>Sobre mim</h1>
+      <p id="report_subtext">Minha trajetória</p>
+      
+      <div class="myHistory">
+            <div class="myHistoryContainer">
+               <div class="firstRow">
+                    <div class="firstRow_column">
+                        <div class="firstRow_column_element">
+                            <h1>O projeto:</h1>
+                            <p>Esse projeto simula um site de administração de uma loja de cursos Online, e foi feito com a finalidade de demonstrar o meu aprendizado e a minha experiência adquirida durante
+                              esses meses em que me dediquei totalmente ao Nova Geração e à comunidade do Instituto Caldeira. Foram meses muito desafiadores, mas também 
+                              foi uma das melhores experiências da minha vida. A comunidade formada pelo Caldeira é simplesmente maravilhosa.</p>
+                        </div>
+                        <div class="firstRow_column_element">
+                           <h1>Sobre mim:</h1>
+                           <p>O meu nome é Adriel Silveira de Oliveira, tenho 21 anos, curso ciências da computação e sempre tive 
+                              afinidade pela área de exatas e pela língua inglesa.</p>
+                       </div>
+                    </div>
+                    <div class="firstRow_column2">
+                        <img src="./assets/caldeira.png" alt="" class="caldeira">
+                        <img src="./assets/adri.jpg" class="eu">
+                    </div>
+               </div>
+             <div class="column">
+               <div class="secondRow">
+                   <div class="secondRow_element">
+                       <h1>Características marcantes:</h1>
+                       <p>Proativo, Comunicativo, Empata, Otimista, Dedicado</p>
+                   </div>
+                   <div class="secondRow_element">
+                     <h1>Experiências e Habilidades:</h1>
+                     <ul>
+                        <li>Domínio da língua inglesa</li>
+                        <li>Domínio da lógica de programação</li>
+                        <li>HTML, CSS, JavaScript, Java, C++, Git e Github</li>
+                        <li>De Março à Julho de 2023 fui instrutor e professor no programa "Jovem Tech", que foi uma iniciativa
+                           da Ânima Educação e da Cootravipa para ensinar sobre Tecnologia da Informação e linguagens de programação
+                           como Portugol e Python para 30 alunos de periferia.
+                        </li>
+                        <li>
+                           Projetos em HTML, CSS , JavaScript e C++, que também serão disponibilizados ao final desta página.
+                        </li>
+                     </ul>
+                 </div>
+            </div>
+            </div>
+         </div>
+   </main>
+   <!-- Fim do conteúdo principal -->
+
+
+   <!-- Seção da direita -->
+   <div class="right-section">
+      <div class="nav">
+         <button id="menu-btn">
+            <span class="material-symbols-outlined">
+               menu
+            </span>
+         </button>
+         <div class="dark-mode">
+            <span class="material-symbols-outlined active">
+               light_mode
+            </span>
+            <span class="material-symbols-outlined">
+               dark_mode
+            </span>
+         </div>
+
+         <div class="profile">
+            <div class="info">
+               <p>Hey, <b>Adri</b></p>
+               <small class="text-muted">Admin</small>
+            </div>
+            <div class="profile-photo">
+               <img src="./assets/adri.jpg" alt="admin_pic">
+            </div>
+         </div>
+      </div>
+      <!-- fim da navegação -->
+      <div class="user-profile">
+         <div class="logo">
+            <img src="./assets/logo.png">
+            <h2>AdrDev</h2>
+            <p>Fullstack Web Developer</p>
+         </div>
+      </div>
+
+      <div class="reminders">
+         <div class="header">
+            <h2>Reminders</h2>
+            <span class="material-symbols-outlined">
+               notifications_none
+            </span>
+         </div>
+
+         <div class="notification">
+            <div class="icon">
+               <span class="material-symbols-outlined">
+                  volume_up
+               </span>
+            </div>
+            <div class="content">
+               <div class="info">
+                  <h3>Workshop</h3>
+                  <small class="text_muted">
+                     08:00 AM - 12:00 PM
+                  </small>
+               </div>
+               <span class="material-symbols-outlined">
+                  more_vert
+               </span>
+            </div>
+         </div>
+
+         <div class="notification deactive">
+            <div class="icon">
+               <span class="material-symbols-outlined">
+                  edit
+               </span>
+            </div>
+            <div class="content">
+               <div class="info">
+                  <h3>Workshop</h3>
+                  <small class="text_muted">
+                     08:00 AM - 12:00 PM
+                  </small>
+               </div>
+               <span class="material-symbols-outlined">
+                  more_vert
+               </span>
+            </div>
+         </div>
+
+         <div class="notification add-reminder">
+            <div>
+               <span class="material-symbols-outlined">
+                  add
+               </span>
+               <h3>Add Reminder</h3>
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+
+   
+</div>
+
+   <script src="script.js"></script>
+</body>
+</html>

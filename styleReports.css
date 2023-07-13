@@ -1,0 +1,59 @@
+@import url("style.css");
+
+
+main .reports_page_list{
+margin-top: 1.4rem;
+}
+
+
+main .reports_page_list .reports_page_list_reports{
+  background-color: var(--color-white);
+  padding: var(--card-padding);
+  border-radius: var(--card-border-radius);
+  margin-top: 1rem;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+  gap: 8rem;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+main .reports_page_list .reports_page_list_reports:hover{
+  box-shadow: none;
+}
+
+label{
+  min-width: 15rem;
+  max-width: 15rem;
+}
+
+form > span{
+  display: flex;
+  gap: 1rem;
+}
+
+#text-area{
+  width: 15rem;
+  height: 9rem;
+  text-align: start;
+}
+
+#textCenter{
+  margin-top: 2rem;
+}
+
+form{
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  width: auto;
+}
+
+button{
+  display: flex;
+  justify-content: center;
+  width: 2rem;
+  text-align: center;
+}
