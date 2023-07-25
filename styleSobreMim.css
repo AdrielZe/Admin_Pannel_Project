@@ -73,3 +73,10 @@ main .myHistory .myHistoryContainer{
    justify-content: space-between;
 
 }
+
+.secondRowColumn{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 30em;
+}
