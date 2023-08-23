@@ -136,6 +136,30 @@ th{
 
 @media screen and (max-width: 765px){
   .overlay-content{
-    width: 70%;
+    width: 60%;
+    height: 40%;
   }
+
+  .mailSquare{
+    font-size: 1rem;
+  }
+  .overlay_elements{
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    border-bottom: 2px solid;
+    max-width: 90%;
+    height: auto;
+    width: auto ;
+    text-align: center;
+  }
+  #overlay_name,#overlay_about,#overlay_date,#overlay_hour{
+    display: none;
+  }
+  #overlay_email{
+    border-right: none;
+    text-align: center;
+  }
+
 }
